@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+nav {
+    background-color: #444;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.container {
+    padding: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Tambahkan styling untuk gambar anime */
+.anime-img {
+    width: 100%;
+    height: auto;
+    max-width: 600px; /* Sesuaikan ukuran maksimal gambar */
+    display: block;
+    margin: 20px auto; /* Pusatkan gambar */
+}
+
+/* Styling untuk tombol */
+button {
+    background-color: #4CAF50; /* Hijau */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px; /* Sudut bulat */
+}
+
+button:hover {
+    background-color: #45a049; /* Warna lebih gelap saat hover */
+}
+
